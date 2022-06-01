@@ -1,0 +1,111 @@
+body {
+    background-image: linear-gradient(to left, #CE9461, #E0D8B0, rgba(0, 0, 0, 0.7));
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+    
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    font-size: 15px;
+    transition: 1s;
+    border-radius: 15px;
+}
+nav ul li a:hover{
+    color: white;
+    background-color: black;
+}
+.row{
+    display: flex;
+    height: 80%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    font-style: italic;
+    color: white;
+    font-size: 75px;
+}
+h6{
+    color: white;
+    font-size: 12px;
+    line-height: 20px;
+}
+p{
+    color: white;
+    font-size: 22px;
+    line-height: 20px;
+}
+button{
+    width: 180px;
+    color: black;
+    font-size: 15px;
+    padding: 15px 0;
+    background: white;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.card{
+    width: 230px;
+    height: 260px;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+}
+.card1{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(gezi.jpg);
+}
+.card2{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(hobi.jpg);
+}
+.card3{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(film.jpg);
+}
+h4{
+    color: white;
+    
+}
+.card:hover{
+    transform: translateY(-15px);
+}
