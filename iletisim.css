@@ -51,48 +51,22 @@ nav ul li a:hover{
     align-items: center;
 }
 .col{
-    flex-basis: 60%;
+    flex-basis: 40%;
 }
-h1{
+h3{
     font-style: italic;
+    font-family: "Noto";
     color: black;
-    font-size: 75px;
-}
-h6{
-    text-align: center;
-    color: white;
-    font-size: 12px;
+    font-size: 35px;
     line-height: 20px;
 }
-h4{
-    color: white;
-    text-align: center;
-    margin-top: -150px;
-}
-p{
-    color: black;
-    font-family: "Noto";
-    font-size: 24px;
-    line-height: 25px;
-}
-button{
-    width: 180px;
-    color: black;
-    font-size: 15px;
-    padding: 15px 0;
-    background: white;
-    border: 0;
-    border-radius: 20px;
-    outline: none;
-    margin-top: 30px;
-}
 .card{
-    width: 230px;
+    width: 260px;
     height: 260px;
     display: inline-block;
     border-radius: 15px;
-    margin: 10px 15px;
-    padding: 250px 20px;
+    margin: 10px 27px;
+    padding: 25px 20px;
     box-sizing: border-box;
     cursor: pointer;
     background-position: center;
@@ -100,13 +74,16 @@ button{
     transition: 0.5s;
 }
 .card1{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(gezi.jpg);
+    background-image: url(instagram.png);
 }
 .card2{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(hobi.jpg);
+    background-image: url(twitter.png);
 }
 .card3{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(film.jpg);
+    background-image: url(github.png);
+}
+.card4{
+    background-image: url(linkedin.png);
 }
 .card:hover{
     transform: translateY(-15px);
