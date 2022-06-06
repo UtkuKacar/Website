@@ -47,26 +47,44 @@ nav ul li a:hover{
 }
 .row{
     display: flex;
-    height: 80%;
+    height: 20px;
     align-items: center;
 }
 .col{
-    flex-basis: 50%;
+    flex-basis: 100%;
 }
-h3{
-    font-style: italic;
-    font-family: "Noto";
+pre{
+    background: #CC9B6D;
     color: black;
-    font-size: 50px;
-    line-height: 20px;
+    border-radius: 60px;
+    font-family: 'Noto';
+    font-size: 24px;
+    padding: 20px;
+    position: absolute;
+    top: 250px;
+    left: 150px;
+}
+h4{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: -100px;
+}
+h6{
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    
 }
 .card{
-    width: 260px;
-    height: 260px;
+    width: 400px;
+    height: 400px;
     display: inline-block;
     border-radius: 15px;
-    margin: 10px 27px;
-    padding: 25px 20px;
+    margin: 15px 25px;
+    padding: 250px 20px;
     box-sizing: border-box;
     cursor: pointer;
     background-position: center;
@@ -74,16 +92,16 @@ h3{
     transition: 0.5s;
 }
 .card1{
-    background-image: url(instagram.png);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(okul.jpg);
 }
 .card2{
-    background-image: url(twitter.png);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(otel.jpg);
 }
 .card3{
-    background-image: url(github.png);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(oyun.jpg);
 }
 .card4{
-    background-image: url(linkedin.png);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(hobi.jpg);
 }
 .card:hover{
     transform: translateY(-15px);
