@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="iletisim.css">
-    <link rel="icon" type="image/x-icon" href="owl.png"/> <!--Sekme başlığının yanındaki küçük resim(favicon)-->
+    <link rel="stylesheet" href="iletisim.js">
+    <link rel="icon" type="image/x-icon" href="owl.png"/><!--Sekme başlığının yanındaki küçük resim(favicon)-->
     <title>Kişisel Web Sitem</title>
 </head>
 <body>
@@ -36,6 +37,28 @@
                 <a href="https://www.linkedin.com/in/utku-ka%C3%A7ar-a04981237/" target="_blank"><div class="card card4">
                 </div></a>
             </div>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="container1">
+           <h2 class = "title">İletişim</h2>
+           <form class = "form" action="iletisim.php" method="post">
+            
+                <label>İsim</label>
+                <input class = "input-area" type="text" name = "name">
+
+                <label>Konu</label>
+                <input class = "input-area" type="text" name = "subject">
+
+                <label>E-mail</label>
+                <input class = "input-area" type="text" name = "mail">
+
+                <label>Mesaj</label>
+                <textarea class = "input-area" type="text" name = "message"></textarea>
+
+               <input class = "submit-btn" id = "submitBtn" type="submit" name = "Gönder">
+               <input class = "clear-btn" id = "clearBtn"  type="submit" name = "Sil" value="Sil">
+           </form>
         </div>
     </div>
 </body>

@@ -1,4 +1,4 @@
 # Website
 Utku Kaçar 201502017 Bilgisayar Mühendisliği
-Visual Studio Code kullanarak hazırladım ödevi
-Kendimi tanıtan gezip gördüğüm yerlerin fotoğrafları film önerilerinin olduğu iletişim bilgilerinin bulunduğu bir site yaptım
+Visual Studio Code programını ve HTML, CSS, JS ve PHP dillerini kullanarak hazırladım
+Kendimi tanıtan film müzik önerilerinin olduğu iletişim bilgilerinin bulunduğu bir site yaptım

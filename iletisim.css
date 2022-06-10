@@ -64,7 +64,7 @@ h3{
     width: 260px;
     height: 260px;
     display: inline-block;
-    border-radius: 15px;
+    border-radius: 50px;
     margin: 10px 27px;
     padding: 25px 20px;
     box-sizing: border-box;
@@ -87,4 +87,61 @@ h3{
 }
 .card:hover{
     transform: translateY(-15px);
+}
+.container1{
+	width: 1200px;
+	margin: 0 auto;
+}
+.contact .container1 .title{
+    color: black;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem;
+    font-size: 2rem;
+    display: flex;
+}
+.contact .container1 .form{
+    display: block;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 5px;
+    background-image: linear-gradient(to left, #CE9461, #E0D8B0, rgba(0, 0, 0, 0.7));
+    margin-bottom: 50px;
+}
+.contact .container1 .form label{
+    line-height: 2.7em;
+    color: white;
+}
+.contact .container1 .form .input-area{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 14px;
+}
+.contact .container1 .submit-btn{
+    margin-top: 10px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    font-size: 20px;
+    font-family: "Noto";
+    background-image: linear-gradient(to left, #CE9461, #E0D8B0, rgba(0, 0, 0, 0.7));
+    border: none;
+}
+.contact .container1 .clear-btn{
+  margin-top: 10px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: black;
+  font-size: 20px;
+  font-family: "Noto";
+  background-image: linear-gradient(to left, #CE9461, #E0D8B0, rgba(0, 0, 0, 0.7));
+  border: none;
 }

@@ -58,13 +58,7 @@ h1{
     color: black;
     font-size: 75px;
 }
-h6{
-    text-align: center;
-    color: white;
-    font-size: 12px;
-    line-height: 20px;
-}
-h4{
+h3{
     color: white;
     text-align: center;
     margin-top: -150px;
@@ -87,8 +81,8 @@ button{
     margin-top: 30px;
 }
 .card{
-    width: 230px;
-    height: 260px;
+    width: 360px;
+    height: 400px;
     display: inline-block;
     border-radius: 15px;
     margin: 10px 15px;
@@ -100,12 +94,9 @@ button{
     transition: 0.5s;
 }
 .card1{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(gezi.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(spotify.jpg);
 }
 .card2{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(hobi.jpg);
-}
-.card3{
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(film.jpg);
 }
 .card:hover{
